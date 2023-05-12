@@ -8,7 +8,6 @@ public class Solutions {
         List<Integer> result = new LinkedList<>();
 
         for (Integer num : numbers) {
-
             if (num % 2 != 0) {
                 result.add(num);
             }
@@ -20,7 +19,6 @@ public class Solutions {
         Set<Integer> result = new TreeSet<>();
 
         for (Integer num : numbers) {
-
             if (num % 2 == 0) {
                 result.add(num);
             }
@@ -37,7 +35,6 @@ public class Solutions {
         }
 
         for (Map.Entry<String, Integer> entry : counter.entrySet()) {
-
             if (entry.getValue() == 1) {
                 result.add(entry.getKey());
             }
